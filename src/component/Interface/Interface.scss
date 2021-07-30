@@ -1,0 +1,41 @@
+$width: 200px;
+
+.interface {
+    position: absolute;
+    z-index: 10;
+
+    width: $width;
+
+    left: 20px;
+    //left: 20px;
+    box-shadow: rgba(150, 150, 167, 0.651) 0px 7px 29px 0px;
+    top: 20px;
+
+    background-color: rgba(255, 255, 255, 0.383);
+    border-radius: 10px;
+    margin: auto;
+
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+
+    &__choice {
+
+        border-radius: 10px;
+        margin: 10px 0;
+        padding: 10px 20px;
+        cursor: pointer;
+        svg {
+            font-size: 30px;
+        }
+        p {
+            margin: 0;
+            text-align: center;
+            color: black !important;
+        }
+
+        &:hover, &--select {
+            background-color: rgba(255, 255, 255, 0.712);
+        }
+    }
+}

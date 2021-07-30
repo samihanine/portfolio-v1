@@ -1,0 +1,25 @@
+@font-face {
+	font-family: 'MyFont';
+	src: url('./assets/Metropolis-Regular.otf');
+}
+
+body {
+  margin: 0;
+}
+
+* {
+	box-sizing: border-box;
+
+	font-family: "MyFont";
+}
+
+h1, h2, p, li {
+	color: var(--text);
+}
+footer {
+	background-color: black;
+	color: white;
+	font-weight: 900;
+	text-align: center;
+	padding: 20px
+}
